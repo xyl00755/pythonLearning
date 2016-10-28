@@ -1,0 +1,26 @@
+<html>
+<head>
+<style>
+	*{
+           margin: 0 auto;
+           padding: 0px;
+	}
+</style>
+<script type="text/javascript" src="/jquery/jquery.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+  $("button").click(function(){
+    alert("Image width " + $("img").attr("width"));
+    $(div1).after("div1绝对位置x:"+$("#div1").offset().left+",y:"+$("#div1").offset().top);
+  });
+});
+</script>
+</head>
+
+<body>
+<div id="div1"></div>
+<img src="/i/eg_smile.gif" width="128" height="128" />
+<br />
+<button>返回图像的宽度</button>
+</body>
+</html>
