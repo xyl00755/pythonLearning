@@ -1,0 +1,150 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+	background-color:#3a4c64;
+	font-size: 14px;
+	font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif, "宋体";
+}
+
+#main_body {
+	top:0px;
+	width:1200px;
+	height:1031px;
+	margin: 0 auto;
+	background-color:#3a4c64;
+}
+#header-back{
+	background-color:#fac946;
+	height:95px;
+}
+#header{
+	width:1200px;
+	background-color:#fac946;
+	height:95px;
+}
+#header-return{
+	float:left;
+	margin-top:43px;
+	background-color:transparent;
+	width:80px;
+}
+
+#header-logo {
+	float:left;
+	margin-left:75px;
+	margin-top:27px; 
+	width:128px;
+	height:38px;
+}
+
+#header-pagename {
+	float:left;
+	margin-left:207px;
+	margin-top:25px;
+	width:194px;
+	height:45px;
+}
+#header-timeicon {
+	float:right;
+	margin-right:10px;
+	width:31px;
+	height:95px;
+}
+
+#header-timetext {
+	float:right;
+	margin-top:45px;
+	margin-right:75px;
+	background-color:transparent;
+	color:#3a4c64;
+}
+
+#main-banner {
+	/* margin-left:100px; */
+	margin-top:26px;
+	width:1100px;
+	height:45px;
+	background-color:#4a6589;
+	border:solid 1px #193153;
+}
+#main-banner-title {
+	font-family: "Microsoft Yahei";
+	color:white;
+	width:600 px;
+	height:45px;
+	text-align:center; 
+
+}
+
+#main-banner-title tr td{
+	font-size:20px;
+	background-color:#4a6589;
+	border:0px #000 solid;
+	width:94px;
+}
+
+#main-banner-title tr td:first-child{
+	width:85px;
+}
+#main-banner-title tr td:nth-child(2){
+	width:365px;
+}
+
+#main-banner-title tr td:nth-child(8){
+	width:180px;
+}
+
+
+#main-sheet {
+	/* margin-left:100px; */
+	width:1100px;
+	height:680px; 
+	background-color:#ffffff;
+	border:solid 1px #193153;
+	overflow:hidden;
+}
+
+.main-sheet table{
+	cellspacing:0;
+	cellpadding:0;
+}
+
+#main-sheet1 tr td{
+	height:85px;
+	font-size:20px;
+	background-color:#fff;
+	border-bottom:1px #000 solid;
+	width:94px;
+	text-align:center; 
+}
+#main-sheet1 tr td:first-child{
+	height:85px;
+	color:#6e7f9f;
+	background-color:#eef3fa;
+	border-bottom:1px #000 solid;
+	border-right:solid 1px #c9cdd3;
+	width:85px;
+	font-color:#6e7f9f;
+}
+#main-sheet1 tr td:nth-child(2){
+	width:365px;
+	text-align:left; 
+	 
+}
+#main-sheet1 tr td:nth-child(8){
+	background:url(images/14.gif) repeat-y left top;
+	width:16px;
+}
+#main-sheet1 tr td:nth-child(9){
+	background-color:#fce9b7;
+	width:164px;
+}
+.projectName-a{
+	margin-left:15px;
+	font-size:20px;
+	background-color:#fff;
+	text-decoration:none;
+	color:#4a6589;
+}
+
+

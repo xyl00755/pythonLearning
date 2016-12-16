@@ -1,0 +1,29 @@
+* {
+    margin: 0 auto;
+    padding: 0px;
+	font-family: "Microsoft Yahei",Arial, Helvetica, sans-serif, "宋体";
+}
+
+#main_body {
+	top:0px;
+	margin: 0 auto;
+}
+#container
+{/* width:1300px */} 
+#header {background-color:#99bbbb;} 
+#server{background-color:#ffff99;width:25%; float:left;} 
+#content{background-color:#EEEEEE;width:75%; float:left;overflow:hidden;} 
+h1{margin-bottom:0;width:auto;} 
+h2 {margin-bottom:0; width:auto;font-size:14px;} 
+ul {margin:0;}
+li {list-style:none;} 
+#loading{ 
+	position:absolute; 
+	width:300px; 
+	top:0px;
+	left:50%; 
+	margin-left:-150px; 
+	text-align:center; 
+	padding:7px 0 0 0; 
+	font:bold 11px Arial, Helvetica, sans-serif; 
+}

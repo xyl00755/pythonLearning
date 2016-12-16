@@ -1,0 +1,36 @@
+#验证切面相关
+vars.verifyToken = true
+vars.verifyRole = true
+vars.verifyArgument = false
+
+#缩略图相关
+vars.pic.thumbanail.enabled = true
+vars.pic.thumbanail.suffix = @1e_300w_300h_1c_80q.jpg
+
+vars.version.serverVersion = 1.1.8(favorite)
+
+#user agreement URL
+userAgreementUrl = http://www.danlu.com/registerNew/agreement.html
+
+#终端店登录强制激活标志位(默认强制)
+zddActForceInd = 0
+#经销商登录强制激活标志位(默认非强制)
+jxsActForceInd = 1
+#激活送红包金额(分)
+actCouponAmt = 1000
+
+#促销红包相关配置
+payRatio = 1.0
+maxTicketUseNum = 9999
+
+#短信验证码过期时间(毫秒)
+smsExpirationTime = 900000
+
+#是否接口自动化测试模式(默认值为false 非自动化测试模式)
+isTestInterfaceModel = true
+#接口自动化测试 短信(图形)验证码
+testValCode = 1111
+
+#营销中心
+mcBase=http://123.57.239.53:9001  
+

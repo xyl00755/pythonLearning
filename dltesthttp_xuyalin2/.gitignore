@@ -1,0 +1,52 @@
+# maven ignore
+target/
+*.jar
+*.war
+*.zip
+*.tar
+*.tar.gz
+
+# eclipse ignore
+.settings/
+.project
+.classpath
+
+# idea ignore
+.idea/
+.idea
+*.ipr
+*.iml
+*.iws
+
+# temp ignore
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+# system ignore
+.DS_Store
+Thumbs.db
+
+#grunt
+#node_modules
+#dist
+#.tmp
+#.sass-cache
+#bower_components
+
+#ignore  target directoryo???target????
+target/*
+bin/
+
+# ignore dltesthttp project
+*.pyc
+pyResult.html
+userdata.xlsx
+test.py
+main.py
+/www/testcase/testother.py
+/.idea/workspace.xml
+
+# ignore tmp
