@@ -1,0 +1,33 @@
+<html>
+<head>
+<style>
+	*{
+           margin: 0 auto;
+           padding: 0px;
+	}
+</style>
+<script type="text/javascript" src="/jquery/jquery.js"></script>
+<script type="text/javascript">
+function ifTopest(currentDiv){
+   if(currentDiv.offset().top==0){return 1;}
+   else {return 0;}
+}
+
+$(document).ready(function(){
+	
+	  $("button").click(function(){if(ifTopest==1){
+		alert("Image width " + $("img").attr("width"));
+		$(this).after("按钮的绝对位置x:"+$("button").offset().left+",y:"+$("button").offset().top);
+	  });
+	}
+});
+</script>
+</head>
+
+<body>
+<div id="div1">xxxxx<div>
+<img src="/i/eg_smile.gif" width="128" height="128" />
+<br />
+<button>返回图像的宽度</button>
+</body>
+</html>

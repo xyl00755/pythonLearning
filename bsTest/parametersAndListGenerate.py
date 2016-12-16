@@ -50,7 +50,6 @@ for i in numbers:
 n3=[lam(i,i) for i in range(10)]
 n4=[lam(i,i) for i in range(10) if i%2==0]   #在0~10的整数列表中依次取（符合If条件的）值，调用lam函数，返回处理结果
 # print n2,'\n',n3,'\n',n4
-print n3
 
 # L = ['Hello', 'World', 18, 'Apple', None]
 # print L,'\n',[s.lower() for s in L if isinstance(s,str)]
@@ -59,3 +58,5 @@ print n3
 
 
 print reduce(lambda l,x: l.append(sum(l[x:])) or l,range(6),[1,1])
+g = lambda n:reduce(lambda s,x: s.append(sum(s[x:])) or s, range(n), [3,5])[:n]
+print g(5)
