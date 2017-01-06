@@ -59,4 +59,7 @@ n4=[lam(i,i) for i in range(10) if i%2==0]   #在0~10的整数列表中依次取
 
 print reduce(lambda l,x: l.append(sum(l[x:])) or l,range(6),[1,1])
 g = lambda n:reduce(lambda s,x: s.append(sum(s[x:])) or s, range(n), [3,5])[:n]
-print g(5)
+# print g(5)
+
+
+print [str(i+1)+',1;' for i in range(30)]
